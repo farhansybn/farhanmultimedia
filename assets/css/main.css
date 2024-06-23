@@ -2640,17 +2640,18 @@ input, select, textarea {
 
 #three .features article {
     display: flex;
-    flex-direction: column; /* Mengubah flex-direction menjadi column */
+    flex-direction: column;
     align-items: center;
-    width: calc(33.3333% - 20px); /* Mengatur lebar artikel */
+    width: calc(33.3333% - 20px);
     padding: 20px;
     text-align: center;
     margin-bottom: 40px;
+    border-bottom: 1px solid #eaeaea; /* Garis pemisah */
 }
 
 #three .features article .image {
-    width: 100%; /* Mengatur lebar gambar */
-    margin-bottom: 1em; /* Mengatur jarak antara gambar dan teks */
+    width: 100%;
+    margin-bottom: 1em;
 }
 
 #three .features article .inner {
@@ -2671,3 +2672,4 @@ input, select, textarea {
 #three .features article .button:hover {
     background-color: #0056b3;
 }
+
