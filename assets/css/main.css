@@ -2637,7 +2637,6 @@ input, select, textarea {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 #three .features article {
     position: relative; /* Menjadikan posisi relatif untuk menampung pseudo-element */
     display: flex;
@@ -2648,7 +2647,6 @@ input, select, textarea {
     text-align: center;
     margin-bottom: 40px;
 }
-
 #three .features article::after {
     content: '';
     position: absolute;
@@ -2658,20 +2656,16 @@ input, select, textarea {
     height: 100%;
     background-color: #eaeaea; /* Warna garis pemisah */
 }
-
 #three .features article:last-child::after {
     display: none; /* Menghilangkan garis pemisah di artikel terakhir */
 }
-
 #three .features article .image {
     width: 100%;
     margin-bottom: 1em;
 }
-
 #three .features article .inner {
     text-align: center;
 }
-
 #three .features article .button {
     margin-top: 1em;
     padding: 0.5em 1em;
@@ -2682,7 +2676,6 @@ input, select, textarea {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 #three .features article .button:hover {
     background-color: #0056b3;
 }
