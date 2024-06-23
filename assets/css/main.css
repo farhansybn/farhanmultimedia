@@ -2637,29 +2637,37 @@ input, select, textarea {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 #three .features article {
     display: flex;
-    flex-direction: row;
+    flex-direction: column; /* Mengubah orientasi flex menjadi kolom */
     align-items: center;
     width: 100%;
     padding: 1em 0;
     border-bottom: 1px solid #eaeaea;
+    text-align: center; /* Teks berada di tengah */
 }
+
 #three .features article .image {
-    width: 30%;
-    margin-right: 2%;
+    width: 70%; /* Lebar gambar menjadi lebih besar */
+    margin-bottom: 1em; /* Memberi jarak antara gambar dan teks */
 }
+
+#three .features article .inner {
+    width: 100%; /* Lebar inner container */
+}
+
 #three .features article .button {
-    margin-top: 1em; /* Adjust as needed */
+    margin-top: 1em; /* Sesuaikan jarak atas tombol */
     padding: 0.5em 1em;
-    background-color: #007bff; /* Example background color */
-    color: #fff; /* Text color */
-    text-decoration: none; /* Remove underline */
+    background-color: #007bff; /* Warna latar belakang contoh */
+    color: #fff; /* Warna teks */
+    text-decoration: none; /* Hapus garis bawah */
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 #three .features article .button:hover {
-    background-color: #0056b3; /* Darker shade of the background color */
+    background-color: #0056b3; /* Warna lebih gelap */
 }
