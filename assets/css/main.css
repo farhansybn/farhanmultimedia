@@ -2649,3 +2649,17 @@ input, select, textarea {
     width: 30%;
     margin-right: 2%;
 }
+#three .features article .button {
+    margin-top: 1em; /* Adjust as needed */
+    padding: 0.5em 1em;
+    background-color: #007bff; /* Example background color */
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#three .features article .button:hover {
+    background-color: #0056b3; /* Darker shade of the background color */
+}
