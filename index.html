@@ -5,13 +5,43 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        /* Additional styles for section three */
+        #three .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        #three .features article {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+            padding: 1em 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+        #three .features article .image {
+            width: 30%;
+            margin-right: 2%;
+        }
+        #three .features article .inner {
+            width: 68%;
+        }
+        #three .features article .image img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        #three .features article:last-child {
+            border-bottom: none;
+        }
+    </style>
 </head>
 <body class="is-preload">
 
     <!-- Header -->
     <div id="header">
         <div class="top">
-
             <!-- Logo -->
             <div id="logo">
                 <span class="image avatar48"><img src="images/111.png" alt="Avatar" /></span>
@@ -28,11 +58,8 @@
                     <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
                 </ul>
             </nav>
-
         </div>
-
         <div class="bottom">
-
             <!-- Social Icons -->
             <ul class="icons">
                 <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -41,9 +68,7 @@
                 <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
                 <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
             </ul>
-
         </div>
-
     </div>
 
     <!-- Main -->
@@ -65,25 +90,25 @@
         <!-- Three -->
         <section id="three">
             <div class="container">
-                <h3>Another project I made</h3>
-                <p>This section showcases one of the significant projects I have worked on. It highlights my skills and achievements in multimedia communication and technology.</p>
+                <h3>A Few Accomplishments</h3>
+                <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
                 <div class="features">
                     <article>
-                        <a href="#" class="image"><img src="images/pic01.jpg" alt="Project Image" /></a>
+                        <a href="#" class="image"><img src="images/pic01.jpg" alt="Possibly broke spacetime" /></a>
                         <div class="inner">
                             <h4>Possibly broke spacetime</h4>
                             <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="images/pic02.jpg" alt="Project Image" /></a>
+                        <a href="#" class="image"><img src="images/pic02.jpg" alt="Terraformed a small moon" /></a>
                         <div class="inner">
                             <h4>Terraformed a small moon</h4>
                             <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="images/pic03.jpg" alt="Project Image" /></a>
+                        <a href="#" class="image"><img src="images/pic03.jpg" alt="Snapped dark matter in the wild" /></a>
                         <div class="inner">
                             <h4>Snapped dark matter in the wild</h4>
                             <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
@@ -147,3 +172,4 @@
 
 </body>
 </html>
+
