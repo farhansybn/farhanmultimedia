@@ -2631,3 +2631,21 @@ input, select, textarea {
 				}
 
 	}
+/* Styles for the "three" section */
+#three .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#three .features article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 1em 0;
+    border-bottom: 1px solid #eaeaea;
+}
+#three .features article .image {
+    width: 30%;
+    margin-right: 2%;
+}
