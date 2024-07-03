@@ -2642,7 +2642,7 @@ input, select, textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(33.3333% - 20px);
+    width: calc(25% - 20px); /* Ubah lebar untuk menampung 4 artikel */
     padding: 20px;
     text-align: center;
     margin-bottom: 40px;
@@ -2656,8 +2656,8 @@ input, select, textarea {
     height: 100%;
     background-color: #eaeaea; /* Warna garis pemisah */
 }
-#three .features article:last-child::after {
-    display: none; /* Menghilangkan garis pemisah di artikel terakhir */
+#three .features article:nth-child(4n)::after {
+    display: none; /* Menghilangkan garis pemisah di artikel ke-4, ke-8, dst. */
 }
 #three .features article .image {
     width: 100%;
